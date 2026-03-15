@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mango Tree – Plant Info</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: #e8f0d8;
+      min-height: 100vh;
+      padding: 2rem 1rem 3rem;
+      color: #3d4a2d;
+    }
+    .page {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #3d4a2d;
+      text-align: center;
+      margin-bottom: 2rem;
+      letter-spacing: 0.02em;
+    }
+    .card {
+      background: #f5fae8;
+      border-radius: 12px;
+      padding: 1rem 1.25rem 1.25rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 12px rgba(61, 74, 45, 0.08);
+      border: 1px solid rgba(139, 160, 80, 0.2);
+    }
+    .card-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #5a6b3d;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(90, 107, 61, 0.25);
+    }
+    .card-content {
+      font-size: 0.95rem;
+      line-height: 1.55;
+      color: #2d3522;
+    }
+    .card-content ul {
+      list-style: none;
+      padding: 0;
+    }
+    .card-content li {
+      position: relative;
+      padding-left: 1.2rem;
+      margin-bottom: 0.4rem;
+    }
+    .card-content li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: #6b8e3d;
+      font-weight: 700;
+    }
+    .location-tag {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      background: #d4e4a8;
+      color: #3d4a2d;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .more-info {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .more-info a {
+      display: inline-block;
+      padding: 0.75rem 1.75rem;
+      background: #6b8e3d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+    .more-info a:hover {
+      background: #5a7a32;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 1.25rem;
+      font-size: 0.85rem;
+      color: #5a6b3d;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Mango Tree</h1>
+
+    <div class="card">
+      <div class="card-label">Common Name</div>
+      <div class="card-content">Mango Tree</div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Scientific Name</div>
+      <div class="card-content"><em>Mangifera indica</em></div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Family</div>
+      <div class="card-content">Anacardiaceae</div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Description</div>
+      <div class="card-content">
+        The mango tree is a tropical fruit tree widely grown in India. It produces sweet and nutritious fruits rich in vitamins and minerals.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Uses / Benefits</div>
+      <div class="card-content">
+        <ul>
+          <li>Rich in Vitamin A and Vitamin C</li>
+          <li>Helps improve digestion</li>
+          <li>Boosts immunity</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Location</div>
+      <div class="card-content">
+        <span class="location-tag">COLLEGE CAMPUS</span>
+      </div>
+    </div>
+
+    <div class="more-info">
+      <a href="https://owaisshaikh2007.github.io/plant-qr-website" target="_blank" rel="noopener">More Information</a>
+    </div>
+
+    <p class="footer">Plant QR System</p>
+  </div>
+</body>
+</html>
